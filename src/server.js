@@ -41,6 +41,7 @@ app.use(routes)
 
 
 
-server.listen(3333)
+//server.listen(3333)
+server.listen(process.env.PORT || 3333);
 
 // [MVC]          M - Model(abstraçao da bd),     V - View  (front end),        C - Controller(vai armazenar na bd etc)
