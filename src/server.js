@@ -21,9 +21,9 @@ io.on('connection', socket => {
 
 
 
+// a string dentro do connect deve ser a sua string da base dados mongoDB
 
-
-mongoose.connect('mongodb+srv://garcez:teste1234@blogapp-prod-rvcpo.mongodb.net/omnistack8?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://<your_mongodb_user>:<your_password>@blogapp-prod-rvcpo.mongodb.net/omnistack8?retryWrites=true&w=majority', {
     useNewUrlParser: true
 })
 
